@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>дз</title>
+</head>
+<body>
+  <script>
+    "use strict"
+    let namber = prompt('Ввидите число:');
+    let Nhundreds = (Math.trunc(namber / 100)% 10);
+    let Ndozens = (Math.floor(namber / 10) % 10);
+    let Nunits = namber % 10;
+    console.log(`В числе ${namber} количество сотен: ${Nhundreds}, десятков:${Ndozens}, единиц: ${Nunits}`);
+  </script>
+</body>
+</html>
