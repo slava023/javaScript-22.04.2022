@@ -1,0 +1,3 @@
+побитовые операции js
+
+https://learn.javascript.ru/bitwise-operators
